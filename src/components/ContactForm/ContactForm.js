@@ -1,6 +1,6 @@
 import { Formik, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import { Button, Label, ModernErrorMessage, ModernField, ModernForm } from './ContactForm.styled';
+import { Button, Label, ModernField, ModernForm } from './ContactForm.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { selectContacts } from 'redux/selectors';
